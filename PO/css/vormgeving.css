@@ -23,9 +23,10 @@ body {
 
 .header {
   padding: 60px;
+  margin-bottom: 5px;
   text-align: center;
-  background: rgb(0,146,255);
-background: linear-gradient(81deg, rgba(0,146,255,1) 0%, rgba(0,219,255,1) 100%);
+  background: rgb(0,39,75);
+  background: linear-gradient(90deg, rgba(0,39,75,1) 0%, rgba(2,86,210,1) 100%);
   color: white;
   font-size: 30px;
 }
@@ -33,6 +34,19 @@ background: linear-gradient(81deg, rgba(0,146,255,1) 0%, rgba(0,219,255,1) 100%)
 .content {padding:20px;}
 
 /* HOVER IMAGE */
+.Hobby {
+  background: -webkit-linear-gradient(45deg,#00274b, #0256d2);
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: linear-gradient(90deg, rgba(0,39,75,1) 0%, rgba(2,86,210,1) 100%); */
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+  translate: 50%, 50%;
+  font-family: Arial;
+}
 
 .container {
     position: relative;
